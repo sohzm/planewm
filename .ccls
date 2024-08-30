@@ -1,0 +1,12 @@
+-I.
+-I/usr/include
+-I/usr/local/include
+
+# Compiler flags
+-DDEBUG
+-Wall
+-Wextra
+
+# Linker flags
+-lX11
+-o bin/plane
